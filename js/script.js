@@ -3,12 +3,12 @@ $(function(){
 
     // YOU MUST EDIT THIS SECTION
     // You must supply a Trove API key
-    var troveAPIKey = '';
+    var troveAPIKey = 'cqvvk0cd5v9fdtpm';
     // Either provide full API query here or include options below
     var apiQuery = '';
     // Words you want to search for -- separate multiple values with spaces, eg:
     // var keywords = 'weather wragge';
-    var keywords = '';
+    var keywords = 'rembrandt';
     // How you want to combine keywords -- all, any, or phrase
     var keywordType = 'all'
     // Limit to a particular year
@@ -21,10 +21,10 @@ $(function(){
     // var titles = '840 35';
     var titles = '';
     // Add a byline, eg:
-    var byline = 'Created by <a href="https://timsherratt.org">Tim Sherratt</a>.'
+    var byline = 'Created by <a href="https://timsherratt.org">Saskia Scheltjens</a>.'
     // var byline = '';
     // Add a tagline
-    var tagline = 'How well do you know your Australian history?';
+    var tagline = 'How well does Australia knows Rembrandt?';
     // Leave this alone unless you're publishing on a non-https server
     var useHttps = 'true';
 
@@ -32,14 +32,14 @@ $(function(){
     // These are the hints you get after each guess
     // gt100 means the guess was greater than the target year + 100 years etc
     var messages = {};
-    messages['gt100'] = "Ummm... really... that's your guess? It's much much earlier!";
-    messages['gt50'] = "Oh no! You're way off. It's a lot earlier.";
-    messages['gt10'] = "Getting close, but it's still quite a bit earlier.";
-    messages['gt1'] = "Almost! Try a bit earlier.";
-    messages['lt100'] = "Come on, get serious! It's much much later.";
-    messages['lt50'] = "Nope, missed the mark there. It's a lot later.";
-    messages['lt10'] = "Not bad, but it's still quite a bit later.";
-    messages['lt1'] = "So close! Try a bit later.";
+    messages['gt100'] = "Potverdikkie, dat is wel heel erg fout zeg";
+    messages['gt50'] = "Mwa. Dat kon heel veel beter, toch?";
+    messages['gt10'] = "Bijna, je bent er bijna";
+    messages['gt1'] = "Komaan. Hup hup hup";
+    messages['lt100'] = "Dat is verkeerd joh";
+    messages['lt50'] = "Probeer nog een keer, toe";
+    messages['lt10'] = "Ietsie Pietsie meer";
+    messages['lt1'] = "Bijna, bijan, bijna!";
 
     // These are the messages you get if you guess correctly
     // The numbers 1-10 represent to number of guesses taken
